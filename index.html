@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Canary Game</title>
+
+    <!-- styles libraries -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" media="screen"
+        rel="stylesheet" type="text/css" />
+
+    <!-- scripts libraries -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+</head>
+
+<body style="background-color: lightgoldenrodyellow">
+    <div class="d-flex justify-content-center mt-4">
+        <h4 class="mx-4 text-center">¡EN CANARIAS NO SE DICE MUYAYO, SE DICE MUCHACHO!</h4>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div id="game-zone" class="mt-4 rounded" style="width: 96%; height: auto; background-color: lightsalmon;">
+            <div id="game-zone-islands" class="row m-0 p-2 d-flex justify-content-center"></div>
+            <div id="game-zone-pictures" class="row m-0 p-0 mt-4 d-flex justify-content-center"></div>
+            <div id="game-zone-puntuation" class="row m-0 p-0 mt-4 d-flex justify-content-left">
+                <div class="m-0 p-4 mt-4 mb-4 d-flex justify-content-center"
+                    style="background-color: white; width: 100px; height: 100px;">
+                    <h1 id="puntuation" class="display-4">0</h1><span id="max-puntuation" class="small">/7</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="options" class="d-flex justify-content-center mt-4">
+        <label for="difficulty" class="mx-2 mt-1">Selecciona una dificultad:</label>
+        <select name="difficulty" id="difficulty">
+            <option value="1">¡Venga que te lo pongo fácil! (Fácil)</option>
+            <option value="2" selected>¡Vamos jodío, tu puedes! (Medio)</option>
+            <option value="3">¡Chassss muchacho eres un fiera! (Difícil)</option>
+        </select>
+    </div>
+    <div id="modal">
+        <p></p>
+    </div>
+
+    <!-- my scripts -->
+    <script src="./js/functions.js"></script>
+</body>
+
+</html>

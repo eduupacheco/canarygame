@@ -1,0 +1,39 @@
+{
+    "islands": [
+        {
+            "id": 0,
+            "name": "Tenerife",
+            "skins": ["Tenerife-skin-1","Tenerife-skin-2"]
+        },
+        {
+            "id": 1,
+            "name": "Las Palmas",
+            "skins": ["Las Palmas-skin-1","Las Palmas-skin-2"]
+        },
+        {
+            "id": 2,
+            "name": "La Gomera",
+            "skins": ["La Gomera-skin-1","La Gomera-skin-2"]
+        },
+        {
+            "id": 3,
+            "name": "La Palma",
+            "skins": ["La Palma-skin-1","La Palma-skin-2"]
+        },
+        {
+            "id": 4,
+            "name": "Lanzarote",
+            "skins": ["Lanzarote-skin-1","Lanzarote-skin-2"]
+        },
+        {
+            "id": 5,
+            "name": "Fuerteventura",
+            "skins": ["Fuerteventura-skin-1","Fuerteventura-skin-2"]
+        },
+        {
+            "id": 6,
+            "name": "El Hierro",
+            "skins": ["El Hierro-skin-1","El Hierro-skin-2"]
+        }
+    ]
+}
