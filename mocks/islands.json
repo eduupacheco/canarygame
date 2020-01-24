@@ -7,18 +7,18 @@
         },
         {
             "id": 1,
-            "name": "Las Palmas",
-            "skins": ["Las Palmas-skin-1","Las Palmas-skin-2"]
+            "name": "Las_Palmas",
+            "skins": ["Las_Palmas-skin-1","Las_Palmas-skin-2"]
         },
         {
             "id": 2,
-            "name": "La Gomera",
-            "skins": ["La Gomera-skin-1","La Gomera-skin-2"]
+            "name": "La_Gomera",
+            "skins": ["La_Gomera-skin-1","La_Gomera-skin-2"]
         },
         {
             "id": 3,
-            "name": "La Palma",
-            "skins": ["La Palma-skin-1","La Palma-skin-2"]
+            "name": "La_Palma",
+            "skins": ["La_Palma-skin-1","La_Palma-skin-2"]
         },
         {
             "id": 4,
@@ -32,8 +32,8 @@
         },
         {
             "id": 6,
-            "name": "El Hierro",
-            "skins": ["El Hierro-skin-1","El Hierro-skin-2"]
+            "name": "El_Hierro",
+            "skins": ["El_Hierro-skin-1","El_Hierro-skin-2"]
         }
     ]
 }
