@@ -195,7 +195,7 @@ function enableOptions() {
  */
 function setSoundCorrect() {
     var audio = new Audio()
-    audio.src = './audio/correct.mp3'
+    audio.src = './canarygame/audio/correct.mp3'
     audio.play()
 }
 
@@ -204,7 +204,7 @@ function setSoundCorrect() {
  */
 function setSoundIncorrect() {
     var audio = new Audio()
-    audio.src = './audio/incorrect.mp3'
+    audio.src = './canarygame/audio/incorrect.mp3'
     audio.play()
     audio.volume = 0.1
 }
